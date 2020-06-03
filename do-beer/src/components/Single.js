@@ -17,7 +17,7 @@ class Single extends React.Component {
     componentDidMount() {
         // console.log(this.props.match.params)
         // console.log(`searching for ${this.props.match.params.beerId}`);
-        this.loadBeer(this.props.match.params.beerId)
+        this.loadBeer(this.props.match.params.beerId) 
     }
     loadBeer = (beerId) => {
         this.setState({ loading: true })
@@ -27,10 +27,10 @@ class Single extends React.Component {
                 this.setState({
                     beer: res.data,
                     loading: false
-                })
-            })
+                }) 
+            }) 
     }
-    render() {
+    render() {  
         if (this.state.loading) {
             return <div>Loading...</div>;
         }
@@ -43,7 +43,7 @@ class Single extends React.Component {
                     <h2>{beer.name}</h2>
                     <p>{beer.desription}</p>
                 </div>
-                <img className="label" src={beer.labels.large} alt={beer.name} />
+                <img className="label" src={beer.labels && beer.labels.large} alt={beer.name} />
                 <div className="style">
                     <h3>More Info on {beer.style.name}</h3>
                     <p>{beer.style.description}</p>
