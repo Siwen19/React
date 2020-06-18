@@ -14,7 +14,7 @@ body {
   padding: 20px;
 }
 
-/* 评论框样式 */ 
+/* 评论框样式 */
 .comment-input {
   background-color: #fff;
   border: 1px solid #f1f1f1;
@@ -38,7 +38,8 @@ body {
   flex: 1;
 }
 
-.comment-field-input input, .comment-field-input textarea {
+.comment-field-input input,
+.comment-field-input textarea {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   padding: 5px;
@@ -72,14 +73,14 @@ body {
   background: #13c1f1;
 }
 
-/* 评论列表样式 */ 
+/* 评论列表样式 */
 .comment-list {
   background-color: #fff;
   border: 1px solid #f1f1f1;
   padding: 20px;
 }
 
-/* 评论组件样式 */ 
+/* 评论组件样式 */
 .comment {
   position: relative;
   display: flex;
