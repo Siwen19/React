@@ -6,8 +6,9 @@ import Home from './pages/home'
 import logo from './logo.svg';
 import './util/request.js';
 import './App.css';
+import './index.css'
 
-const { Header, Content, Footer } = Layout; 
+const { Header, Content, Footer } = Layout;
 const store = {
   articleStore
 }
@@ -16,7 +17,7 @@ function App() {
     <Provider {...store} >
       <Layout>
         <Header>
-          
+
         </Header>
         <Content className='site-layout'>
           <Row>
@@ -25,7 +26,7 @@ function App() {
             </Col>
           </Row>
         </Content>
-      </Layout> 
+      </Layout>
     </Provider>
   );
 }
