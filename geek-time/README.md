@@ -1,4 +1,4 @@
 
 ## 1. create-react-app geek-time
-## npm i mockjs
+## 2. npm i mockjs
 ## npm i antd
