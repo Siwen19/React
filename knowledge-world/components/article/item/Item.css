@@ -1,0 +1,33 @@
+.container-wrapper {
+    width: 10rem;
+    height: 15rem;
+    margin: 3rem 0 0 1.5rem;
+    background-color: #fff;
+    border: 1px solid rgb(228, 227, 227);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-box img {
+    width: 9.95rem;
+    height: 11rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content-box {
+    width: 9.95rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-box hr {
+    width: 1.5rem;
+    margin: .25rem auto;
+}
