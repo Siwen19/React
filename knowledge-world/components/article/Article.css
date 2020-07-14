@@ -1,0 +1,9 @@
+.article {
+    width: 100vw;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-bottom: 5rem;
+}
