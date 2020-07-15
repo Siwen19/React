@@ -1,0 +1,26 @@
+.footer {
+    width: 25rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer .footer-bar {
+    width: 6.25rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.footer .footer-bar img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .1rem auto;
+}
+
+.footer .footer-bar .footer-text {
+    margin: -.1rem auto;
+}
