@@ -1,0 +1,61 @@
+.planet-wrapper {
+    width: 100vw;
+    height: 46.875rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.header-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.header-wrapper .cancel-text {
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    left: .2rem;
+    border: none;
+    color: black;
+    background-color: #fff;
+    margin: .5rem;
+}
+
+.header-wrapper .next-step-button {
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    right: 1.8rem;
+    border: none;
+    background-color: rgb(84, 161, 84);
+    color: #fff;
+    border-radius: 15px;
+    margin: .3rem auto;
+    outline: none;
+}
+
+.body-wrapper {
+    width: 100vw;
+    height: 20rem;
+}
+
+.body-wrapper .pic-box img {
+    width: 12rem;
+    height: 12rem;
+    margin: 2rem 6.1rem;
+    border-radius: 10px;
+}
+
+.body-wrapper .input-box {
+    position: absolute;
+    left: 28%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: rgb(227, 227, 227);
+}
